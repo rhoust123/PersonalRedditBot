@@ -7,22 +7,22 @@
 import praw
 
 reddit = praw.Reddit(
-    client_id="4kbboKRetAQSnrKvzW0HPA",
-    client_secret="y_sBceYjZf5fNAsYykIIFvHLA0bXqA",
-    user_agent="<console:TerminatorBot:1.0>",
+    client_id="kek8O6sH4IwaFde2k3EE2w",
+    client_secret="h4hHOPOhIHfNCa_U7LYKdC1BzHv7UA",
+    user_agent="<console:Aragorn-IntroBot:1.0>",
 )
 
-subreddit = reddit.subreddit("Terminator")
+subreddit = reddit.subreddit("lotr")
 
-for submission in subreddit.hot(limit=10):
-    print("*********")
-    print(submission.title)
+for submission in subreddit.hot(limit=100):
+    #print("*********")
+    #print(submission.title)
 
     for comment in submission.comments:
         lower_comment = comment.body.lower()
-        if " terminator " in lower_comment:
+        if " aragorn " in lower_comment:
             print("----------")
             print(comment.body)
-            
+
 
 
