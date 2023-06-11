@@ -1,8 +1,10 @@
 # Personal Coding Project
 # Author: Rhett Houston
 # Start Date: 6/2/23
-# End Date:
-# Sources:
+# End Date: 6/10/23
+# Sources: ClarityCoders - Youtube (Program A Reddit Bot - Python)
+# Sources cont'd: https://www.youtube.com/watch?v=3FpqXyJsd1s
+
 
 import praw
 import time
